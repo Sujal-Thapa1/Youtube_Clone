@@ -1,0 +1,317 @@
+*{
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+body{
+    background-color: rgb(13, 6, 25);
+}
+.navbar{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+.navbar .logo img{
+    height: 35px;
+    width: 130px;
+    position: relative;
+    left:-50px;
+    top:0px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(57, 156, 169);
+}
+.navbar .logo img:hover{
+    transform: rotate(-10deg);
+    transition: 2s;
+}
+.navbar .menu i{
+    position:relative;
+    left: -12px;
+    top: 11px;
+    color: white;
+    width: 20px;
+
+}
+.navbar .search input{
+    position: relative;
+    left:110px;
+    width: 700px;
+    height: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgb(57, 156, 169);
+    border: none;
+}
+.navbar .search input:hover{
+    cursor:text;
+    transform: translate3d(2px);
+    transition: 2s;
+}
+.navbar .voice i{
+height: 25px;
+width: 18px;
+border-radius: 20px;
+color: rgb(255, 255, 255);
+position: relative;
+top:5px;
+left:70px;
+box-shadow: (1px 1px 20px rgb(57, 156, 169));
+}
+.navbar .create button{
+    position: relative;
+    left: 90px;
+    background-color: transparent;
+    color: white;
+    border-radius:20px;
+    width: 90px;
+    height: 30px;
+    border: none;
+    box-shadow: 0px 0px 30px rgb(57, 156, 169);
+}
+.navbar .create button:hover{
+    background-color: rgb(21, 57, 174);
+    transition: 2s;
+}
+.navbar .notification i{
+    color: white;
+    position: relative;
+    left:50px;
+    top:6px;
+}
+.navbar .user_info{
+    position: relative;
+    left:30px;
+    color:white;
+    background-color: blue;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+.top_Menu{
+    width: 85vw;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top:100px;
+    left:190px;
+}
+.top_Menu .des{
+    color: white;
+    background-color: rgb(8, 45, 59);
+    border-radius: 20px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 1px 1px 20px rgb(57, 156, 169);
+}
+.top_Menu .des:hover{
+    background-color: rgb(57, 156, 169);
+    transition: 2s;
+}
+.left_Menu{
+    position: relative;
+    top:50px;
+    left: 12px;
+    width: 160px;
+    height:75vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.left_Menu .design{
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 150px;
+    color: white;
+}
+.left_Menu .design:hover{
+    background-color: rgb(8, 45, 59);
+}
+.left_Menu .Subscriptions{
+    padding-left: 40px;
+    width: 110px;
+    position: relative;
+    left:-0px;
+}
+.left_Menu .your_Videos{
+    padding-left: 40px;
+    width: 110px;
+    position: relative;
+    left:-5px;
+}
+.left_Menu .your_Courses{
+    padding-left: 40px;
+    width: 110px;
+    position: relative;
+    left:-0px;
+}
+.left_Menu .watch_Later{
+    padding-left: 40px;
+    width: 110px;
+    position: relative;
+    left:-5px;
+}
+.left_Menu .liked_Videos{
+    padding-left: 40px;
+    width: 110px;
+    position: relative;
+    left:-0px;
+}
+.left_Menu .Subs{
+    color:white;
+    position: relative;
+    left:-20px;
+}
+.left_Menu .first_line{
+    width: 150px;
+    position: relative;
+    left: 20px;
+    
+}
+.left_Menu .sec_line{
+    color:white;
+    width: 190px;
+    position: relative;
+    left:20px;
+}
+.left_Menu .You{
+    color: white;
+    position: relative;
+    left:-40px;
+}
+.left_Menu i{
+    position: relative;
+    left:-30px;
+}
+/* .content{
+    border: 2px solid white;
+    height: 400px;
+    width: 82vw;
+    display: flex;
+    position: relative;
+    top:-400px;
+    left: 220px;
+    
+}
+.content .cont{
+    height: 500px;
+    width: 400px;
+}
+.content .cont img{
+    border: 2px solid rgb(222, 14, 128);
+    height: 210px;
+    width: 330px;
+    border-radius:20px ;
+}
+.content .cont img:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.content .video1 span{
+    border: 2px solid red;
+    color:white;
+    position: relative;
+    text-align: center;
+    bottom:0px;
+}
+.content .cont pre{
+    left: -40px;
+    font-size: 20px;
+}
+.content .video2 span{
+    border: 2px solid green;
+    color:white;
+    position: relative;
+    bottom: 0px;
+} */
+.content{
+    height: 30vw;
+    width: 83vw;
+    position: absolute;
+    top: 260px;
+    left: 220px;
+    display: flex;
+    gap:20px;
+
+}
+.content .cont{
+    height: 350px;
+    width: 420px;
+}
+.content .cont img{
+    height: 220px;
+    width: 340px;
+    border-radius: 20px;
+}
+.content .cont img:hover{
+    border: 4px solid rgb(0, 255, 229);
+    transform: scale(1.1);
+    transition: 2s;
+}
+.content .cont span{
+    color: white;
+    font-size:15px;
+}
+.content .cont .button1{
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(89, 118, 216);
+    position: relative;
+    bottom: 130px;
+    left:280px;
+    border: none;
+    box-shadow: 1px 1px 20px rgb(0, 112, 210);
+}
+.content .cont .button1:hover{
+    background-color: aquamarine;
+    transform: scale(1.1);
+    transition: 2s;
+}
+.content .cont .button2{
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(89, 118, 216);
+    position: relative;
+    bottom: 130px;
+    left:220px;
+    border: none;
+    box-shadow: 1px 1px 20px rgb(0, 112, 210);
+}
+.content .cont .button2:hover{
+    background-color: aquamarine;
+    transform: scale(1.1);
+    transition: 2s;
+}
+.content .cont .button3{
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(89, 118, 216);
+    position: relative;
+    bottom: 130px;
+    left:194px;
+    border: none;
+    box-shadow: 1px 1px 20px rgb(0, 112, 210);
+}
+.content .cont .button3:hover{
+    background-color: aquamarine;
+    transform: scale(1.1);
+    transition: 2s;
+}
+.content .cont h4{
+    font-size: 20px;
+}
